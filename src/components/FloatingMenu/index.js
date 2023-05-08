@@ -279,7 +279,7 @@ class FloatingMenu extends React.PureComponent {
           style={[globalStyles.button, buttonTouchableStyle]}
           onPressIn={this.handleItemPressIn(null, this.menuPressAnimation)}
           onPressOut={this.handleItemPressOut(null, this.menuPressAnimation)}
-          onPress={this.handleMenuPress}
+          onLongPress={this.handleMenuPress}
           hitSlop={{ top: 10, left: 10, right: 10, bottom: 10 }}
         >
           <Animated.View
